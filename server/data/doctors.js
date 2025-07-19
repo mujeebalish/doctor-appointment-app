@@ -1,0 +1,92 @@
+export const doctors = [
+  {
+    id: 1,
+    name: "Dr. Ayesha Khan",
+    specialty: "Cardiologist",
+    experience: "10 years",
+    location: "Karachi",
+    image: "https://randomuser.me/api/portraits/women/44.jpg",
+    description: "Expert in heart-related conditions, known for accurate diagnoses and personalized cardiac care."
+  },
+  {
+    id: 2,
+    name: "Dr. Imran Ahmed",
+    specialty: "Dermatologist",
+    experience: "8 years",
+    location: "Lahore",
+    image: "https://randomuser.me/api/portraits/men/32.jpg",
+    description: "Specializes in treating skin disorders, acne, and allergies using modern dermatological techniques."
+  },
+  {
+    id: 3,
+    name: "Dr. Sana Malik",
+    specialty: "Pediatrician",
+    experience: "5 years",
+    location: "Islamabad",
+    image: "https://randomuser.me/api/portraits/women/65.jpg",
+    description: "Provides comprehensive care to infants and children, with a friendly and nurturing approach."
+  },
+  {
+    id: 4,
+    name: "Dr. Fahad Sheikh",
+    specialty: "Neurologist",
+    experience: "12 years",
+    location: "Rawalpindi",
+    image: "https://randomuser.me/api/portraits/men/53.jpg",
+    description: "Experienced in treating neurological disorders like epilepsy, migraines, and stroke recovery."
+  },
+  {
+    id: 5,
+    name: "Dr. Zara Fatima",
+    specialty: "Gynecologist",
+    experience: "9 years",
+    location: "Multan",
+    image: "https://randomuser.me/api/portraits/women/23.jpg",
+    description: "Expert in women’s health, fertility treatments, and prenatal care with a focus on patient trust."
+  },
+  {
+    id: 6,
+    name: "Dr. Usman Tariq",
+    specialty: "Orthopedic",
+    experience: "6 years",
+    location: "Quetta",
+    image: "https://randomuser.me/api/portraits/men/71.jpg",
+    description: "Specializes in bone injuries, joint replacements, and sports injuries recovery."
+  },
+  {
+    id: 7,
+    name: "Dr. Mahnoor Ali",
+    specialty: "Dentist",
+    experience: "4 years",
+    location: "Hyderabad",
+    image: "https://randomuser.me/api/portraits/women/19.jpg",
+    description: "Focused on cosmetic and general dentistry with a gentle approach for all ages."
+  },
+  {
+    id: 8,
+    name: "Dr. Bilal Mirza",
+    specialty: "ENT Specialist",
+    experience: "7 years",
+    location: "Peshawar",
+    image: "https://randomuser.me/api/portraits/men/47.jpg",
+    description: "Handles ear, nose, and throat issues with advanced ENT procedures and patient education."
+  },
+  {
+    id: 9,
+    name: "Dr. Hina Shah",
+    specialty: "Psychiatrist",
+    experience: "11 years",
+    location: "Faisalabad",
+    image: "https://randomuser.me/api/portraits/women/77.jpg",
+    description: "Passionate about mental health, treating anxiety, depression, and behavioral disorders."
+  },
+  {
+    id: 10,
+    name: "Dr. Kamran Javed",
+    specialty: "Surgeon",
+    experience: "13 years",
+    location: "Bahawalpur",
+    image: "https://randomuser.me/api/portraits/men/61.jpg",
+    description: "Skilled general surgeon performing complex operations with high success rates."
+  }
+];
