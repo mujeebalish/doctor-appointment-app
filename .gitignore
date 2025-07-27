@@ -1,1 +1,25 @@
+# Root
 .vercel
+.DS_Store
+node_modules
+
+# Backend
+server/node_modules
+server/.env
+server/.DS_Store
+
+# Frontend
+client/node_modules
+client/.env
+client/build
+client/.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+Thumbs.db
+ehthumbs.db
