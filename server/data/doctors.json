@@ -9,15 +9,6 @@
     "description": "Expert in heart-related conditions, known for accurate diagnoses and personalized cardiac care."
   },
   {
-    "id": 2,
-    "name": "Dr. Imran Ahmed",
-    "specialty": "Dermatologist",
-    "experience": "8 years",
-    "location": "Lahore",
-    "image": "https://randomuser.me/api/portraits/men/32.jpg",
-    "description": "Specializes in treating skin disorders, acne, and allergies using modern dermatological techniques."
-  },
-  {
     "id": 3,
     "name": "Dr. Sana Malik",
     "specialty": "Pediatrician",
@@ -54,15 +45,6 @@
     "description": "Specializes in bone injuries, joint replacements, and sports injuries recovery."
   },
   {
-    "id": 7,
-    "name": "Dr. Mahnoor Ali",
-    "specialty": "Dentist",
-    "experience": "4 years",
-    "location": "Hyderabad",
-    "image": "https://randomuser.me/api/portraits/women/19.jpg",
-    "description": "Focused on cosmetic and general dentistry with a gentle approach for all ages."
-  },
-  {
     "id": 8,
     "name": "Dr. Bilal Mirza",
     "specialty": "ENT Specialist",
@@ -88,5 +70,86 @@
     "location": "Bahawalpur",
     "image": "https://randomuser.me/api/portraits/men/61.jpg",
     "description": "Skilled general surgeon performing complex operations with high success rates."
+  },
+  {
+    "name": "Dr. Zunira Amjad",
+    "specialty": "Cardiologist",
+    "experience": "7 years",
+    "location": "Karachi",
+    "image": "https://randomuser.me/api/portraits/women/44.jpg",
+    "description": "Expert in heart-related conditions, known for accurate diagnoses and personalized cardiac care.",
+    "id": 11
+  },
+  {
+    "name": "Dr. Zunira",
+    "specialty": "Cardiologist",
+    "experience": "7 years",
+    "location": "Karachi",
+    "image": "https://randomuser.me/api/portraits/women/44.jpg",
+    "description": "Expert in heart-related conditions, known for accurate diagnoses and personalized cardiac care.",
+    "id": 12
+  },
+  {
+    "name": "Dr. Zunira",
+    "specialty": "Cardiologist",
+    "experience": "7 years",
+    "location": "Karachi",
+    "image": "https://randomuser.me/api/portraits/women/44.jpg",
+    "description": "Expert in heart-related conditions, known for accurate diagnoses and personalized cardiac care.",
+    "id": 13
+  },
+  {
+    "name": "Dr. Zunira",
+    "specialty": "Cardiologist",
+    "experience": "7 years",
+    "location": "Karachi",
+    "image": "https://randomuser.me/api/portraits/women/44.jpg",
+    "description": "Expert in heart-related conditions, known for accurate diagnoses and personalized cardiac care.",
+    "id": 14
+  },
+  {
+    "name": "Dr. Zunira",
+    "specialty": "Cardiologist",
+    "experience": "7 years",
+    "location": "Karachi",
+    "image": "https://randomuser.me/api/portraits/women/44.jpg",
+    "description": "Expert in heart-related conditions, known for accurate diagnoses and personalized cardiac care.",
+    "id": 15
+  },
+  {
+    "name": "Dr. Zunira",
+    "specialty": "Cardiologist",
+    "experience": "7 years",
+    "location": "Karachi",
+    "image": "https://randomuser.me/api/portraits/women/44.jpg",
+    "description": "Expert in heart-related conditions, known for accurate diagnoses and personalized cardiac care.",
+    "id": 16
+  },
+  {
+    "name": "Dr. Hashmat",
+    "specialty": "Cardiologist",
+    "experience": "10 years",
+    "location": "Karachi",
+    "image": "https://randomuser.me/api/portraits/women/44.jpg",
+    "description": "Expert in heart-related conditions, known for accurate diagnoses and personalized cardiac care.",
+    "id": 17
+  },
+  {
+    "name": "Dr. Hashmat",
+    "specialty": "Cardiologist",
+    "experience": "10 years",
+    "location": "Karachi",
+    "image": "https://randomuser.me/api/portraits/women/44.jpg",
+    "description": "Expert in heart-related conditions, known for accurate diagnoses and personalized cardiac care.",
+    "id": 18
+  },
+  {
+    "id": 19,
+    "name": "Dr. Dil Murad",
+    "specialty": "Cardiologist",
+    "experience": "15 years",
+    "location": "Lahor",
+    "image": "https://randomuser.me/api/portraits/women/44.jpg",
+    "description": "Expert in heart-related conditions, known for accurate diagnoses and personalized cardiac care."
   }
 ]
