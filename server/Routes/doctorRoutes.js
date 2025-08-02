@@ -23,7 +23,7 @@ doctorRoutes.get('/', (req, res) =>{
   catch(error){
     console.log(error.message);
 }});
-    
+
 // Post Route
 const writeDoctors = ((data) =>{
       fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf-8');
@@ -38,7 +38,7 @@ doctorRoutes.post('/post', (req, res) =>{
     }
     const newDoctor = {id: doctors.length + 1, ...body};
     doctors.push(newDoctor);
-    
+
     writeDoctors(doctors)
    return res.status(201).send({status: 201, message: 'Doctor added successfully', data: newDoctor})
   }
@@ -76,20 +76,38 @@ doctorRoutes.delete('/deleteDoctor/:id', (req, res) =>{
   const deleteDoctor = doctors.splice(doctorIndex, 1)[0];
   writeDoctors(doctors);
   res.status(200).send({status: 200, message: 'Doctor deleted successfully', data: deleteDoctor});
-  } 
+  }
   catch(error)  {
     console.error(error.message);
     return res.status(500).send({status: 500, message: 'Internal server error'});
   }
-})
+});
+doctorRoutes.put('/put', (req, res)=>{
+try{
+const doctorId = req.params.id;
+const doctors = readDoctors();
+const doctorIndex = doctors.findIndex(docObj => docObj === doctorId);
+if(doctorIndex === -1) {
+  return res.status(404).send({status: 404, message: 'Doctor not found'});
+}
+const updatedDoctor = {...req.body, id: doctorId};
+writeDoctors(doctors);
+return res.status(200).send({status: 200, message: 'Doctor updated successfully', data: updatedDoctor});
+
+}
+catch(err){
+  console.log(err.message);
+  return res.status(500).send({status: 500, message: 'Internal server error'});
+
+}
+});
 export default doctorRoutes;
-    
-    
-  
-  
 
 
-    
 
-    
-  
+
+
+
+
+
+
