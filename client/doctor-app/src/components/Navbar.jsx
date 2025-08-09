@@ -1,11 +1,16 @@
-const navbar = () =>{
+import { Link } from 'react-router-dom';
+import React from 'react';
+
+const Navbar = () => {
   return (
-    <nav>
-      <div className="navbar_logo">
-        <Link>DoctorApp</Link>
-       <Link> <img src="" alt="logo" className="img-fluid rounded"/></Link>
-      </div>
+    <>
+         <nav>
+       <h1>gxhhdhsgx</h1>
       
+
     </nav>
+    </>
     )
 }
+export default Navbar;
+  
