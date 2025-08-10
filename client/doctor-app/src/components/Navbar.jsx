@@ -7,7 +7,7 @@ const Navbar = () => {
          <nav>
        <div>
        <p>Logo</p>
-       <img src="" alt="Logo" />
+       <img alt="Logo" />
        </div>
       <div>
       <Link to="/">Home</Link>
@@ -22,4 +22,3 @@ const Navbar = () => {
     )
 }
 export default Navbar;
-  
