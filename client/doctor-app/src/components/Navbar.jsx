@@ -5,8 +5,17 @@ const Navbar = () => {
   return (
     <>
          <nav>
-       <h1>gxhhdhsgx</h1>
-      
+       <div>
+       <p>Logo</p>
+       <img src="" alt="Logo" />
+       </div>
+      <div>
+      <Link to="/">Home</Link>
+      <Link to="/about">About</Link>
+      <Link to="/login">Login</Link>
+      <Link to="/signup">Signup</Link>
+      <Link to="/dashboard">Dashboard</Link>
+      </div>
 
     </nav>
     </>

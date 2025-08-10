@@ -5,7 +5,7 @@ import Home from './pages/Home/Home.jsx';
 import About from './pages/About.jsx';
 import Login from './pages/Login/Login.jsx';
 import Signup from './pages/Signup.jsx';
-import Dashbord from './pages/Dashboard/Dashboard.jsx'
+import Dashboard from './pages/Dashboard/Dashboard.jsx'
 const  App = ()=> {
   //const [count, setCount] = useState(0)
 
@@ -16,7 +16,7 @@ const  App = ()=> {
       <Route path='/about'  element={<About/>}/>
       <Route path='/login'  element={<Login/>}/>
       <Route path='/signup'  element={<Signup/>}/>
-      <Route path='/dashbord'  element={<Dashbord/>}/>
+      <Route path='/dashboard'  element={<Dashboard/>}/>
       </Routes>
       <h1>App.jsx</h1>
       </div>
