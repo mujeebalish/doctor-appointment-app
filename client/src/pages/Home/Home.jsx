@@ -3,10 +3,10 @@ import {useState} from 'react';
 const Home = () => {
 const [inputValue, setInputValue] = useState({value: null, showData: false});
 const onChangeHandle = (e) => {
-  setInputValue([e.target.name] : e.target.value);
+  setInputValue({...inputValue,[e.target.name] : e.target.value});
 }
 const handleBtn = () =>{
-  setInputValue({...inputValue, [showData] : true});
+  setInputValue({...inputValue, showData : true});
 
 }
   return (
