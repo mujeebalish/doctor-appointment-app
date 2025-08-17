@@ -1,35 +1,27 @@
 import Navbar from '../../components/Navbar.jsx';
 import {useState, useEffect} from 'react';
+import doctors from '../../data/Doctors.js';
+import Input from '../../components/Input'
 const Home = () => {
+const doctorsArray = doctors;
 const [data, setData] = useState('');
 const [dataValue, setDataValue] = useState('');
-const [renderTest, setRenderTest] = useState('');
-useEffect(() => {
-  setRenderTest()
-  console.log(`Data value`)
-},);
-const onChangeHandle = (e) =>{
-setData(e.target.value);
-};
-const onChangeRender = (e) =>{
-setRenderTest(e.target.value);
-};
-const clickBtn = () =>{
-setDataValue(data);
+const [doctor, setDoctor] = useState('');
+const [getDoctor, setGetDoctor] = useState('');
+const onChange = (e) => {
+  setDoctor(e.target.value)
 }
+
   return (
     <>
       <h1>Home Page</h1>
      <Navbar/>
-
-  <input type="text" value={data} onChange={onChangeHandle} placeholder='Enter Name'/>
-  <input type="text" value={renderTest} onChange={onChangeRender} placeholder='Enter Value'/>
-  <button onClick={clickBtn}>Get value</button>
-  <button onClick={RenderBtn}>Render Test</button>
-  {dataValue && <h1>{dataValue}</h1>}
+     <Input type='text' name='search' vlaue='doctor' onChange='onChange' className='' placeholder='Search Doctor'/>
     </>
     )};
 export default Home;
+
+
 
 
 
