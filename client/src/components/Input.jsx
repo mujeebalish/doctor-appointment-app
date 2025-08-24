@@ -1,6 +1,6 @@
-const Input = ({type, value, onChangeHandler, name, placeholder, className}) => {
+const Input = ({type, value, onChange, name, placeholder, className}) => {
   return (
-    <input type={type} name={name} vlaue={value} onChange={onChangeHandler}className={className} placeholder={placeholder}/>
+    <input type={type} name={name} vlaue={value} onChange={onChange}className={className} placeholder={placeholder}/>
     );
 };
 export default Input;

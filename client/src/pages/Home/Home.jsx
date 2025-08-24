@@ -6,36 +6,30 @@ import Button from '../../components/Button';
 import H1 from '../../components/H1';
 const Home = () => {
 const doctorsArray = doctors;
-const [user, setUser] = useState('');
-const [userData, setUserData] = useState('');
-//const [dataValue, setDataValue] = useState('');
-//const [doctor, setDoctor] = useState('');
-//const [getDoctor, setGetDoctor] = useState('');
+const [user, setUserData] = useState('');
+const [result, setResult] = useState(false);
+{/*//const [doctor, setDoctor] = useState('');
+//const [getDoctor, setGetDoctor] = useState('');*/}
 const onChangeHandler = (e) => {
-  setUser(e.target.value);
-  console.log(e.target.value);
-
+  setUserData(e.target.value)
+  
 };
 const doctorHandler = () => {
-  // doctorMatch = doctorsArray.find((docArray) => docArray.name.toLocaleLowerCase() === user.doctorName.toLocaleLowerCase() )
-  // setDoctorName({...user, foundDoctor : doctorMatch || 'Doctor not found'});
-
-}
+  
+  setResult(true)
+  const foundDoctor = doctorsArray.find(docName => docName.name.toLocaleLowerCase() === user.toLocaleLowerCase())
+};
 
   return (
     <>
-      <H1>Home page</H1>
+      
      <Navbar/>
-     <Input type='text' vlaue={user} onChange={onChangeHandler} placeholder='Search Doctor'/>
-     <Button onClick={doctorHandler} >Search </Button>
-
-     {user.foundDoctor && <H1>{user.foundDoctor}</H1>}
+     <Input type='text' value={user} onChange={onChangeHandler} className='' placeholder='Search Doctor'/>
+     <Button onClick={doctorHandler} className='bg-red-900 text-white p-2 rounded' >Search </Button>
+     {result &&  <H1>{user || 'Insert Doctor Name' }</H1>}
     </>
     )};
 export default Home;
-
-
-
 
 
 
