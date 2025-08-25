@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link, NavLink} from 'react-router-dom';
 import React from 'react';
 import Image from './Image.jsx'
 import styles from './Component.module.css';
@@ -8,15 +8,17 @@ const Navbar = () => {
     <>
          <nav className={styles.navbar}>
        <div className={styles.logoBox}>
-       <p className={styles.brand}>Quick Cure</p>
-       <Image src='../../public/Images/logo1.png' alt='Logo'/>
+       <p className={styles.brand}>Quick <Image src='../../public/images/logo2.png' alt='Logo'/>Cure</p>
+
        </div>
-      <div className={styles.linkBox}>
-      <Link to="/">Home</Link>
-      <Link to="/about">About</Link>
-      <Link to="/login">Login</Link>
-      <Link to="/signup">Signup</Link>
-      <Link to="/dashboard">Dashboard</Link>
+      <div className={styles.linksBox}>
+        <ul>
+      <NavLink to="/">Home</NavLink>
+      <NavLink to="/about">About</NavLink>
+      <NavLink to="/login">Login</NavLink>
+      <NavLink to="/signup">Signup</NavLink>
+      <NavLink to="/dashboard">Dashboard</NavLink>
+      </ul>
       </div>
 
     </nav>
