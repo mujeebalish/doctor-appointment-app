@@ -1,4 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+:root {
+  --navbar-bg: #ffffff;
+  --primary-color: #2D9CDB;
+  --secondary-color: #27AE60;
+  --accent-color: #F2994A;
+  --text-color: #333333;
+  --bg-color: #F8F9FA;
+  --hover-color: #1B7BB8;
+}
 
